@@ -1,0 +1,42 @@
+/* .head {
+  height: 12vh;
+  background-color: red;
+  display: flex;
+  justify-content: center;
+}
+.main-head {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu-bar span {
+  margin: 1rem;
+  cursor: pointer;
+} */
+.head {
+  height: 10vh;
+
+  background-color: black;
+  display: flex;
+  justify-content: center;
+}
+.main-head {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.hdname {
+  color: Red;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+}
+.menubar {
+  display: flex;
+  justify-content: space-between;
+}
+.menubar > button {
+  margin: 0.5rem;
+  cursor: pointer;
+}

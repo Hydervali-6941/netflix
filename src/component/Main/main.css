@@ -1,0 +1,53 @@
+/* .main {
+  height: 100vh;
+  background-color: aqua;
+  display: flex;
+  justify-content: center;
+}
+.left {
+  width: 20%;
+  background-color: rgb(63, 46, 46);
+}
+
+.right {
+  width: 80%;
+  background-color: blue;
+} */
+.main {
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../../images/bg.png");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  flex-direction: column;
+}
+.main-ttl h1 {
+  font-size: 45px;
+}
+.main-ttl h3 {
+  padding-left: 80px;
+  font-size: 30px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.main-ttl h4 {
+  font-size: 20ppx;
+  /* margin-left: 90px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.frm {
+  height: 30px;
+  width: 250px;
+}
+.frbtn {
+  height: 37px;
+  width: 130px;
+  background-color: red;
+  color: white;
+}
